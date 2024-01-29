@@ -36,7 +36,7 @@ const CategorySlider = () => {
                             {category_slider?.map((dates, index) => (
                                 <div key={index} className="categories__item category-item">
                                     <div className="categories__item__icon">
-                                        <img className='category-img' src={ProductImg} />
+                                        <img className='category-img' src={dates?.img} />
                                         <h5>{dates?.name}</h5>
                                     </div>
                                 </div>

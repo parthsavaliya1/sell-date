@@ -15,11 +15,11 @@ const Header = () => {
                                     <div className="header__top__left">
                                        <div className='logo-word'>SPDC BITES</div>
                                     </div>
-                                    <div className="header__logo">
+                                    {/* <div className="header__logo">
                                         <a href="./index.html">
                                             <img src={Logo} alt="" />
                                         </a>
-                                    </div>
+                                    </div> */}
                                     <div className="header__top__right">
                                         
                                         <div className="header__top__right__cart">

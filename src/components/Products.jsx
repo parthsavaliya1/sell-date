@@ -1,6 +1,6 @@
 import React from 'react'
 import { products } from '../constant'
-import ProductImg from '../../public/assets/img/product.jpg'
+import { Link } from 'react-router-dom'
 
 const Products = () => {
     return (
@@ -12,7 +12,7 @@ const Products = () => {
                             <div className="product__item">
                                 <div
                                     className="product__item__pic set-bg"
-                                    data-setbg={ProductImg}
+                                    data-setbg={product?.img}
                                 >
                                     <div className="product__label">
                                         <span>Cupcake</span>
@@ -20,7 +20,7 @@ const Products = () => {
                                 </div>
                                 <div className="product__item__text">
                                     <h6>
-                                        <a href="#">{product?.title}</a>
+                                        <Link to={`/product/${index}`}>{product?.title}</Link>
                                     </h6>
                                     <div className="product__item__price">$32.00</div>
                                     <div className="cart_add">
@@ -31,7 +31,7 @@ const Products = () => {
                         </div>
                     ))}
 
-                  
+
                 </div>
             </div>
         </section>

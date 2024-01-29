@@ -12,9 +12,15 @@
 
 .header__top__inner {
     height: 102px;
-    padding-top: 38px;
+    // padding-top: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
+.logo-img{
+    height: 100px;
+    width: 100px;
+}
 .logo-word{
     display: inline-block;
     font-size: 24px;

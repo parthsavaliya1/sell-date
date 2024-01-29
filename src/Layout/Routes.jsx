@@ -1,15 +1,9 @@
-// AppRoutes.js
-
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from '../components/Home';
 import About from '../components/About';
 import Contact from '../components/Contact';
-
-
-
-
-
+import ProductDetails from '../components/ProductDetails';
 
 export const AppRoutes = () => {
 
@@ -18,6 +12,7 @@ export const AppRoutes = () => {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/product/:productId" element={<ProductDetails />} />
         </Routes>
     );
 };

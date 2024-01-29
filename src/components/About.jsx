@@ -3,7 +3,6 @@ import classVideo from '../../public/assets/img/class-video.jpg'
 import aboutImg from '../../public/assets/img/about-date.jpg'
 import ClientSlider from './slider/ClientSlider'
 import OurTeam from './OurTeam'
-import Footer from './Footer'
 import { FaPlay } from 'react-icons/fa'
 import { Why, Why2 } from '../constant'
 
@@ -107,7 +106,6 @@ const About = () => {
 
                 <OurTeam />
 
-                <Footer />
                 <div className="search-model">
                     <div className="h-100 d-flex align-items-center justify-content-center">
                         <div className="search-close-switch">+</div>

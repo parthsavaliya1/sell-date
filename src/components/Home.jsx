@@ -8,7 +8,6 @@ import Products from './Products';
 import classVideo from '../../public/assets/img/class-video.jpg'
 import OurTeam from './OurTeam';
 import ClientSlider from './slider/ClientSlider';
-import Footer from './Footer';
 import Gallery from './Gallery';
 
 const Home = () => {
@@ -53,21 +52,17 @@ const Home = () => {
                                     <div className="section-title">
                                         <span>Class cakes</span>
                                         <h2>
-                                            Made from your <br />
-                                            own hands
+                                            Send Us Your Thoughts  <br />
+                                            and Inquiries
                                         </h2>
                                     </div>
                                     <form action="#">
                                         <input type="text" placeholder="Name" />
                                         <input type="text" placeholder="Phone" />
-                                        <select>
-                                            <option value="">Studying Class</option>
-                                            <option value="">Writting Class</option>
-                                            <option value="">Reading Class</option>
-                                        </select>
+
                                         <input type="text" placeholder="Type your requirements" />
                                         <button type="submit" className="site-btn">
-                                            registration
+                                            Send
                                         </button>
                                     </form>
                                 </div>
@@ -117,7 +112,6 @@ const Home = () => {
                     </div>
                 </div>
 
-                <Footer />
 
                 <div className="search-model">
                     <div className="h-100 d-flex align-items-center justify-content-center">

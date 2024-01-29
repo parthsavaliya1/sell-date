@@ -318,11 +318,12 @@ ol {
 
 .header__top__inner {
   height: 102px;
-  padding-top: 38px;
 }
 
 .header__top__left {
-  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .header__top__left ul li {
   font-size: 14px;

@@ -6,15 +6,17 @@ import MainComponent from './MainComponent';
 import './App.css'
 import Header from './components/Header';
 import TopBar from './components/TopBar';
+import Footer from './components/Footer';
 
 function App() {
     return (
         <>
             <MainComponent />
-            <TopBar/>
+            <TopBar />
             <Router>
-            <Header/>
+                <Header />
                 <AppRoutes />
+                <Footer />
             </Router>
         </>
 
